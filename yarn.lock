@@ -210,6 +210,22 @@ aedes-persistence@^9.1.2:
     aedes-packet "^3.0.0"
     qlobber "^7.0.0"
 
+aedes-protocol-decoder@^2.0.1:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/aedes-protocol-decoder/-/aedes-protocol-decoder-2.1.0.tgz#e5bf236d74132b44985e17859710c33308759aaa"
+  integrity sha512-Z5PgsdOVtp2P/0Gm1xbXmTSO438oq47qXJAmhsFKdGhgSh0tYX5uizXtZbmRXO7YgZrJYbJgCR49L2XBO01CyA==
+  dependencies:
+    forwarded "^0.2.0"
+    proxy-protocol-js "^4.0.5"
+
+aedes-server-factory@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/aedes-server-factory/-/aedes-server-factory-0.2.1.tgz#4514bd33c249d7dcab41b1946fc80bd9026fe8d6"
+  integrity sha512-pVN5pKyi1UDZRU5DFbL/OnrMmd9xmOfAJ+NqG60mUrTt5nL2ERMJ9j/Of5MrKINz/YH7vctJ8UIhxlVj4zJyKQ==
+  dependencies:
+    aedes-protocol-decoder "^2.0.1"
+    ws "^7.5.0"
+
 aedes@^0.48.0:
   version "0.48.0"
   resolved "https://registry.yarnpkg.com/aedes/-/aedes-0.48.0.tgz#26293408aa616b899154bb07b07312c09160249a"
@@ -480,6 +496,11 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+forwarded@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.2.0.tgz#2269936428aad4c15c7ebe9779a84bf0b2a81811"
+  integrity sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==
+
 fsevents@~2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
@@ -729,6 +750,11 @@ process@^0.11.10:
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==
 
+proxy-protocol-js@^4.0.5:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/proxy-protocol-js/-/proxy-protocol-js-4.0.6.tgz#6214013341c41ccf2e0ba20a2f5afbf2cdb032de"
+  integrity sha512-SjXgyBmr0dBbKUZ0jOzp0N9urTcDOI1cd1oEeE43W1vG4OMwYYLggCRcMJ0zv0gdTA8Imb4cAiYj8Ic/PWv1mw==
+
 pstree.remy@^1.1.8:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/pstree.remy/-/pstree.remy-1.1.8.tgz#c242224f4a67c21f686839bbdb4ac282b8373d3a"
@@ -958,6 +984,11 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
+
+ws@^7.5.0:
+  version "7.5.9"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.9.tgz#54fa7db29f4c7cec68b1ddd3a89de099942bb591"
+  integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
 
 xtend@^4.0.2:
   version "4.0.2"
